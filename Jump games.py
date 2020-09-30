@@ -1,5 +1,5 @@
 class Solution:
-    def canJump(self, nums: List[int]) -> bool:
+    def Jumpgames(self, nums: List[int]) -> bool:
         reachableIndex = 0
         for curr in range(len(nums)):
             if curr + nums[curr] >= reachableIndex:
