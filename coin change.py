@@ -1,3 +1,4 @@
+#given list of denominations find the min number of coins required for change of amount given
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         ar=[amount+1]*(amount+1)
